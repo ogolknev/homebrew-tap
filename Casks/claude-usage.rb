@@ -7,7 +7,7 @@ cask "claude-usage" do
   desc "Menu-bar индикатор лимитов и расхода Claude для macOS"
   homepage "https://github.com/ogolknev/claude-usage"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "Claude Usage.app"
